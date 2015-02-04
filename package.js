@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Npm.depends({
-  "webtorrent": version
+  webtorrent: version
 });
 
 Package.onUse(function(api) {
@@ -25,8 +25,3 @@ Package.onUse(function(api) {
   api.addFiles (webtorrentNpmDir + 'webtorrent.min.js' , 'client');
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('xaiki:webtorrent');
-  api.addFiles('xaiki:webtorrent-tests.js');
-});
