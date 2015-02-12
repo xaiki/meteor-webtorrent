@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Npm.depends({
-  webtorrent: version
+  webtorrent: 'git+http://github.com/xaiki/webtorent.git#webseed'
 });
 
 Package.onUse(function(api) {
