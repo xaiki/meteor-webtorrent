@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Npm.depends({
-  webtorrent: 'git+http://github.com/xaiki/webtorent.git#webseed'
+  webtorrent: 'https://github.com/xaiki/webtorent/tarball/bfe8a674994c4b1b3359d685d0471c3670556c45'
 });
 
 Package.onUse(function(api) {
